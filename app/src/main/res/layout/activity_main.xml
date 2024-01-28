@@ -37,14 +37,14 @@
                     android:id="@+id/live_notice"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textStyle="bold"
-                    android:textSize="20sp"
-                    android:textColor="#2196F3"
+                    android:layout_gravity="center"
                     android:fontFamily="@font/font1"
-                    android:text="নোটিশ:"
                     android:gravity="center"
                     android:singleLine="true"
-                    android:layout_gravity="center"
+                    android:text="নোটিশ:"
+                    android:textColor="#2196F3"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
 
                     />
 

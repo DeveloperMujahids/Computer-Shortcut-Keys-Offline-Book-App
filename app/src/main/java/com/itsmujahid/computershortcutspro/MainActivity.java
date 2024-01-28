@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.etebarian.meowbottomnavigation.MeowBottomNavigation;
 
@@ -14,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
 
     private MeowBottomNavigation bottomNavigation;
 
+    TextView live_notice;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +26,16 @@ public class MainActivity extends AppCompatActivity {
 
 
         bottomNavigation = findViewById(R.id.bottomNavigation);
+        live_notice = findViewById(R.id.live_notice);
 
+
+        live_notice.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+            }
+        });
 
 
 
