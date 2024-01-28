@@ -39,7 +39,7 @@
                     android:layout_height="wrap_content"
                     android:textStyle="bold"
                     android:textSize="20sp"
-                    android:textColor="#000000"
+                    android:textColor="#2196F3"
                     android:fontFamily="@font/font1"
                     android:text="নোটিশ:"
                     android:gravity="center"
